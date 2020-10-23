@@ -6,15 +6,15 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className='NavBar'>
-        <container>
-          <img src={Logo} alt='pod-logo' width='5%'/>
-        </container>
+        <div className='Logo'>
+          <img src={Logo} alt='pod-logo' width='10%'/>
+        </div>
         <ul>
-          <li>Episodes</li>
-          <li>Submissions</li>
-          <li>Sit With Us</li>
-          <li>Resources</li>
-          <li>Shop</li>
+          <li><a href='#home'>Episodes</a></li>
+          <li><a href='#submissions'>Submissions</a></li>
+          <li><a href='#sitwithus'>Sit with Us</a></li>
+          <li><a href='#resources'>Resources</a></li>
+          <li><a href='#shop'>Shop</a></li>
         </ul>
       </div>
     );
