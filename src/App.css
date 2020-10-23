@@ -19,7 +19,7 @@ input:focus {
 /* App Styles */
 
 .App {
-  font-family: 'Spartan';
+  font-family: Spartan, sans-serif;
   font-weight: 100;
   background: #F5E1C1;
   height: 100vh;
@@ -30,12 +30,12 @@ h1 {
   padding: .66rem 0;
   text-align: center;
   font-size: 1.8rem;
-  font-weight: 200;
+  font-weight: 300;
   color: #fff;
   text-transform: uppercase;
 }
 
-.image-container {
+/* .image-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,4 +44,4 @@ h1 {
 
 .image-container img {
   width: 100%;
-}
+} */
