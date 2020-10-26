@@ -3,7 +3,10 @@ import React from 'react';
 class Shop extends React.Component {
   render() {
     return (
-      <div>Shop</div>
+      <div className='Shop'>
+        <h1>Shop</h1>
+
+      </div>
     )
   }
 }

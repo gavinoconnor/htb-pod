@@ -1,11 +1,14 @@
 import React from 'react';
 
+import './SitWithUs.css';
+
 class SitWithUs extends React.Component {
   render() {
     return (
-      <div><h1>Sit With Us</h1>
+      <div className='SitWithUs'>
+        <h1>Sit With Us</h1>
         <h3>
-          (Sit With Us): Our Story | Contact | Newsletter | Follow Us | Patreon
+          Our Story | Contact | Newsletter | Follow Us | Patreon
         </h3>
       </div>
     )

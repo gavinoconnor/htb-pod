@@ -1,20 +1,33 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
-import Logo from './HTB_Final_LogoMark_1x1.png';
+import Logo from './HTB_FullArt_Final_1x1.png';
 
 class NavBar extends React.Component {
   render() {
     return (
       <nav className='NavBar'>
         <div className='Logo'>
+          <Link to='/'>
           <img src={Logo} alt='pod-logo' width='10%'/>
+          </Link>
         </div>
         <ul>
-          <li><a href='#episodes'>Episodes</a></li>
-          <li><a href='#submissions'>Submissions</a></li>
-          <li><a href='#sitwithus'>Sit with Us</a></li>
-          <li><a href='#resources'>Resources</a></li>
-          <li><a href='#shop'>Shop</a></li>
+          <Link to='/episodes'>
+            <li>Episodes</li>
+          </Link>
+          <Link to='/submissions'>
+            <li>Submissions</li>
+          </Link>
+          <Link to='/sitwithus'>
+            <li>Sit with Us</li>
+          </Link>
+          <Link to='/resources'>
+            <li>Resources</li>
+          </Link>
+          <Link to='/shop'>
+            <li>Shop</li>
+          </Link>
         </ul>
       </nav>
     );

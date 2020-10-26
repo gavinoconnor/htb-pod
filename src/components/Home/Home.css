@@ -1,7 +1,10 @@
-.Episodes {
+.Home {
   display: flex;
-  justify-content: space-around;
   color: white;
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+.about {
+  text-align: center;
 }

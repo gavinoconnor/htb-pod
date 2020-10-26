@@ -1,9 +1,14 @@
 import React from 'react';
 
+import './Resources.css';
+
 class Resources extends React.Component {
   render() {
     return (
-      <div>Resources</div>
+      <div className='Resources'>
+        <h1>Resources</h1>
+
+      </div>
     )
   }
 }

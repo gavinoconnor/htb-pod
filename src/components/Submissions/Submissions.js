@@ -1,9 +1,13 @@
 import React from 'react';
 
+import './Submissions';
+
 class Submissions extends React.Component {
   render() {
     return (
-      <div>Submissions</div>
+      <div className='Submissions'>
+        <h1>Submissions</h1>
+      </div>
     )
   }
 }
