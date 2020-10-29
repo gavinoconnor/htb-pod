@@ -1,14 +1,15 @@
 .NavBar {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 10px;
   align-items: center;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  /* position: fixed; */
 }
 
-.Logo {
+.Logo img {
+  border-radius: 50%;
 }
 
 .NavBar ul {

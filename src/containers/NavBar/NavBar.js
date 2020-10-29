@@ -9,7 +9,7 @@ class NavBar extends React.Component {
       <nav className='NavBar'>
         <div className='Logo'>
           <Link to='/'>
-          <img src={Logo} alt='pod-logo' width='10%'/>
+          <img src={Logo} alt='pod-logo' width='20%'/>
           </Link>
         </div>
         <ul>
