@@ -1,10 +1,14 @@
 .Home {
-  display: flex;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 300;
+  /* display: flex;
+  flex-direction: column; */
+  /* padding: 10px; */
+  /* height: 100%; */
+  /* font-size: 1.2rem;
+  font-weight: 300; */
 }
 
-.about {
+.Home p {
   text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
