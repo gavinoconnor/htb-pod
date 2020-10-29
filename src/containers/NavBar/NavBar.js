@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
-import Logo from './HTB_FullArt_Final_1x1.png';
+import Logo from './HTB_Final_LogoMark_1x1.png';
 
 class NavBar extends React.Component {
   render() {
