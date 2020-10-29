@@ -14,20 +14,20 @@ class NavBar extends React.Component {
         </div>
         <ul>
           <Link to='/episodes'>
-            <li>Episodes</li>
+            <li>episodes</li>
           </Link>
-          <Link to='/submissions'>
+          {/* <Link to='/submissions'>
             <li>Submissions</li>
-          </Link>
-          <Link to='/sitwithus'>
-            <li>Sit with Us</li>
-          </Link>
+          </Link> */}
           <Link to='/resources'>
-            <li>Resources</li>
+          <li>resources</li>
+        </Link>
+          <Link to='/sitwithus'>
+            <li>sit with us</li>
           </Link>
-          <Link to='/shop'>
+          {/* <Link to='/shop'>
             <li>Shop</li>
-          </Link>
+          </Link> */}
         </ul>
       </nav>
     );
