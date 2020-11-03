@@ -11,6 +11,7 @@ import Shop from '../src/components/Shop/Shop';
 
 
 import NavBar from './containers/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 class App extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class App extends React.Component {
             <Route path='/resources' component={Resources}/>
             <Route path='/shop' component={Shop}/>
           </Switch>
+          <Footer />
         </div>
       </Router>
     );

@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Home.css';
 import BackgroundImage from '../BackgroundImage/BackgroundImage';
+import founderPhoto from './image0.jpeg';
 
 class Home extends React.Component {
   render() {
@@ -11,6 +12,7 @@ class Home extends React.Component {
           <p>two moms. two kids. too many reasons to give two shits.</p>
         </div>
         <BackgroundImage />
+        <img src={founderPhoto} style={{borderRadius: '50%', width: '30%', position: 'absolute', top: '400px', left: '500px'}}/>
         <div className='bottomline'>
           <p>shake your beverages. not your babies.</p>
         </div>
