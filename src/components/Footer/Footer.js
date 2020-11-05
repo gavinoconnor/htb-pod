@@ -4,7 +4,10 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <h3>Footer</h3>
+        <ul>
+          <li>2020 Hitting the Bottle</li>
+          <li>hello@hittingthebottle.com</li>
+        </ul>
       </footer>
     )
   }
