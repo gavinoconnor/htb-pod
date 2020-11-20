@@ -7,7 +7,7 @@ class BackgroundImage extends React.Component {
   render() {
     return (
       <div className='BackgroundImage'>
-        <img src={backgroundGraphic} alt=''/>
+        <img src={backgroundGraphic} alt='' className='test'/>
       </div>
     )
   }
