@@ -1,6 +1,11 @@
 .BackgroundImage {
-  /* display: block; */
   opacity: 20%;
-  z-index: -1;
-  /* border-radius: 50%; */
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.test {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }

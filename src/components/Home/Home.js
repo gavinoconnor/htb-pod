@@ -11,8 +11,8 @@ class Home extends React.Component {
         <div className='topline'>
           <p>two moms. two kids. too many reasons to give two shits.</p>
         </div>
-        <BackgroundImage />
-        <img src={founderPhoto} style={{borderRadius: '50%', width: '30%', position: 'absolute', top: '400px', left: '500px'}}/>
+        <BackgroundImage className='bg-image'/>
+        <img src={founderPhoto} alt='' style={{borderRadius: '50%', width: '30%', position: 'absolute', top: '400px', left: '500px'}}/>
         <div className='bottomline'>
           <p>shake your beverages. not your babies.</p>
         </div>
