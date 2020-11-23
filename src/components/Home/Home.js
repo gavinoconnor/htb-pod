@@ -8,11 +8,11 @@ class Home extends React.Component {
   render() {
     return (
       <div className='Home'>
-      <img src={backgroundImage} alt='' className='bg-image'/>
+        <img src={backgroundImage} alt='' className='bg-image' />
         <div className='topline'>
           <p>two moms. two kids. too many reasons to give two shits.</p>
         </div>
-        <img src={founderPhoto} alt='' className='founder-photo'/>
+        <img src={founderPhoto} alt='' className='founder-photo' />
         <div className='bottomline'>
           <p>shake your beverages. not your babies.</p>
         </div>

@@ -1,16 +1,16 @@
-.Footer {
+.footer {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
   }
 
-  .Footer ul {
+  .footer ul {
     list-style: none; 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 1 / -1;
   }
 
-  .Footer li {
+  .footer li {
       justify-self: center;
       white-space: nowrap;
   }

@@ -1,49 +1,66 @@
 /* NavBar universal styles */
 
-.NavBar {
+.navbar {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  grid-area: nav;
-  border-bottom: 1px solid black;
+  /* grid-area: nav; */
   align-items: center;
   justify-items: center;
+  position: relative;
 }
 
-@media (min-width: 700px) {
-  .NavBar {
+/* @media (max-width: 700px) {
+  .navbar {
     display: grid;
   }
-}
+} */
 
 /* Nav element styles */
 
-.NavBar ul {
+.navbar ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column: 3 / span 1;
   list-style: none;
   font-size: 1.2rem;
   font-weight: 300;
+  padding-right: 20px;
 }
 
-.NavBar li {
+.navbar li {
   padding-right: 20px;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.NavBar a {
+.navbar a {
   text-decoration: none;
   color: inherit;
 }
 
-.NavBar a:hover {
+.navbar a:hover {
   font-weight: bold;
 }
 
 /* Logo image styles */
 
-.Logo img {
+.logo img {
   display: grid;
   width: 5em;
+}
+
+
+/* Dropdown menu styles */
+.navbar .dropdown {
+  /* display: none; */
+  position: absolute;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: -250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navbar .dropdown:hover {
+  display: block;
 }
