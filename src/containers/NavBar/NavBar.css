@@ -1,22 +1,31 @@
 /* NavBar universal styles */
+
 .NavBar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  /* gap: 10px; */
+  grid-area: nav;
+  border-bottom: 1px solid black;
   align-items: center;
-  /* border-bottom: 1px solid black; */
-  /* position: fixed; */
+  justify-items: center;
 }
 
+@media (min-width: 700px) {
+  .NavBar {
+    display: grid;
+  }
+}
+
+
 /* Nav element styles */
+
 .NavBar ul {
-display: flex;
-justify-content: space-around;
-align-items: center;
-list-style: none;
-font-size: 1.2rem;
-font-weight: 300;
+  display: grid;
+  grid-column: 3 / span 1;
+  justify-self: start;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .NavBar li {
@@ -34,6 +43,5 @@ font-weight: 300;
 /* Logo image styles */
 
 .Logo img {
-  padding-left: 10px;
   width: 5em;
 }
