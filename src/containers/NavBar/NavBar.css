@@ -9,58 +9,35 @@
   position: relative;
 }
 
-/* @media (max-width: 700px) {
-  .navbar {
-    display: grid;
-  }
-} */
-
 /* Nav element styles */
 
-.navbar ul {
+.nav-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column: 3 / span 1;
+  grid-column-gap: 15px;
+  grid-column-start: 3;
+  margin-right: 50px;
   list-style: none;
   font-size: 1.2rem;
   font-weight: 300;
-  padding-right: 20px;
 }
 
-.navbar li {
-  padding-right: 20px;
-  text-decoration: none;
+.nav-links li {
   white-space: nowrap;
 }
 
-.navbar a {
+.nav-links a {
   text-decoration: none;
   color: inherit;
 }
 
-.navbar a:hover {
-  font-weight: bold;
-}
+
 
 /* Logo image styles */
 
 .logo img {
   display: grid;
   width: 5em;
+  margin-right: 20px;
 }
 
-
-/* Dropdown menu styles */
-.navbar .dropdown {
-  /* display: none; */
-  position: absolute;
-  border: 1px solid black;
-  padding: 20px;
-  margin-left: -250px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.navbar .dropdown:hover {
-  display: block;
-}

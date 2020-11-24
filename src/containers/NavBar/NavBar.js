@@ -1,9 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+import Dropdown from '../../components/Dropdown/Dropdown';
+import '../../components/Dropdown/Dropdown.css';
+
 import './NavBar.css';
 import Logo from './HTB_Final_LogoMark_1x1.png';
 
 class NavBar extends React.Component {
+
+  state = {
+    isHovering: false
+  }
+
+  handleHover = () => {
+   this.setState({
+     isHovering: !this.state.isHovering
+    });
+  }
+
   render() {
     return (
       <nav className='navbar'>
@@ -14,21 +29,20 @@ class NavBar extends React.Component {
           </Link>
         </div>
 
-        <ul>
+        <ul className='nav-links'>
           <Link to='/episodes'>
             <li>episodes</li>
-          </Link>
+          </Link> 
 
-          <Link to='/resources'>
-            <li>resources
-              <ul className='dropdown'>
-                <li>our story</li>
-                <li>submissions</li>
-                <li>shop</li>
-              </ul>
-            </li>
+          <Link to='/#'>
+          {
+            !this.state.isHovering ? (
+              <li onClick={this.handleHover}>resources</li>  
+            ) : <Dropdown />
+          
+          }
           </Link>
-
+         
           <Link to='/sitwithus'>
             <li>sit with us</li>
           </Link>
