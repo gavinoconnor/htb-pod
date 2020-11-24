@@ -37,7 +37,7 @@ class NavBar extends React.Component {
           <Link to='/#'>
           {
             !this.state.isHovering ? (
-              <li onClick={this.handleHover}>resources</li>  
+              <li onMouseEnter={this.handleHover}>resources</li>  
             ) : <Dropdown />
           
           }
