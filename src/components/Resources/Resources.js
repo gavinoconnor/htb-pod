@@ -5,7 +5,7 @@ import './Resources.css';
 class Resources extends React.Component {
   render() {
     return (
-      <div className='Resources'>
+      <div className='resources'>
         <h1>Resources</h1>
 
       </div>

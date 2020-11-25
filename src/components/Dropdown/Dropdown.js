@@ -7,13 +7,14 @@ class Dropdown extends React.Component {
     render() {
         return (
           <ul className='dropdown'>
-            <Link to='/#'>
+          <li>resources</li>
+            <Link to='/newsletter'>
               <li>newsletter</li>
             </Link>
-            <Link to='/#'>
+            <Link to='/submissions'>
               <li>submissions</li>
             </Link>
-            <Link to='/#'>
+            <Link to='/shop'>
               <li>shop</li>
             </Link>
           </ul>
