@@ -31,6 +31,10 @@
   color: inherit;
 }
 
+.nav-links a:hover {
+  font-weight: bold;
+}
+
 
 
 /* Logo image styles */

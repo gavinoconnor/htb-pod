@@ -10,7 +10,7 @@ class Home extends React.Component {
       <div className='Home'>
         <img src={backgroundImage} alt='' className='bg-image' />
         <div className='topline'>
-          <p>two moms. two kids. too many reasons to give two shits.</p>
+          <p>two moms. two kids. <br />too many reasons to give two shits.</p>
         </div>
         <img src={founderPhoto} alt='' className='founder-photo' />
         <div className='bottomline'>
