@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './Home.css';
-import backgroundImage from './HTB_FullArt_Final_1x1.png';
-import founderPhoto from './image0.jpeg';
+import backgroundImage from './HTB_Final_Girls_1x1.png';
+import founderPhoto from './Cheers_photo.png';
 
 class Home extends React.Component {
   render() {
