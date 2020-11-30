@@ -1,5 +1,8 @@
 import React from 'react';
 
+import OurStory from '../../components/OurStory/OurStory';
+import Contact from '../../components/Contact/Contact';
+
 import './SitWithUs.css';
 
 class SitWithUs extends React.Component {
@@ -7,9 +10,8 @@ class SitWithUs extends React.Component {
     return (
       <div className='SitWithUs'>
         <h1>Sit With Us</h1>
-        <h3>
-          Our Story | Contact | Newsletter | Follow Us | Patreon
-        </h3>
+        <OurStory />
+        <Contact />
       </div>
     )
   }

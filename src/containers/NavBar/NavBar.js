@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Dropdown from '../../components/Dropdown/Dropdown';
-import '../../components/Dropdown/Dropdown.css';
+// import '../../components/Dropdown/Dropdown.css';
 
 import './NavBar.css';
+
 import Logo from './HTB_Final_LogoMark_1x1.png';
 
 class NavBar extends React.Component {
@@ -15,7 +16,7 @@ class NavBar extends React.Component {
 
   handleClick = () => {
    this.setState({
-     isHovering: !this.state.isHovering
+     clicked: !this.state.clicked
     });
   }
 
@@ -35,12 +36,20 @@ class NavBar extends React.Component {
           </li>
         
           <li onClick={this.handleClick}>
-            {!this.state.isHovering ? <Link to='/#'>resources</Link>  : <Dropdown />}  
+            {!this.state.clicked ? <Link to='/#'>spill the whine</Link>  : <Dropdown />}  
           </li>
                   
           <li>  
             <Link to='/sitwithus'>sit with us</Link> 
           </li>
+
+          <li>  
+            <Link to='/resources'>resources</Link> 
+          </li>
+
+        <li>  
+          <Link to='/merch'>merch</Link> 
+        </li>
         </ul>
 
       </nav>

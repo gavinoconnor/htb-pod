@@ -4,10 +4,12 @@ import './App.css';
 
 import Home from '../src/components/Home/Home';
 import Episodes from '../src/components/Episodes/Episodes';
+import SpillTheWhine from '../src/containers/SpillTheWhine/SpillTheWhine';
 import Submissions from '../src/components/Submissions/Submissions';
-import SitWithUs from '../src/containers/SitWithUs/SitWithUs';
 import Newsletter from '../src/components/Newsletter/Newsletter';
-import Shop from '../src/components/Shop/Shop';
+import SitWithUs from '../src/containers/SitWithUs/SitWithUs';
+import Merch from '../src/components/Merch/Merch';
+import Resources from '../src/components/Resources/Resources';
 
 
 import NavBar from './containers/NavBar/NavBar';
@@ -22,10 +24,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route path='/episodes' component={Episodes}/>
+            <Route path='/spillthewhine' component={SpillTheWhine}/>
             <Route path='/submissions' component={Submissions}/>
-            <Route path='/sitwithus' component={SitWithUs}/>
             <Route path='/newsletter' component={Newsletter}/>
-            <Route path='/shop' component={Shop}/>
+            <Route path='/sitwithus' component={SitWithUs}/>
+            <Route path='/merch' component={Merch}/>
+            <Route path='/resources' component={Resources}/>
           </Switch>
           <Footer />
         </div>

@@ -13,7 +13,7 @@
 
 .nav-links {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 15px;
   grid-column-start: 3;
   margin-right: 50px;
