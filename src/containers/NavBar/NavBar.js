@@ -1,11 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Dropdown from '../../components/Dropdown/Dropdown';
-// import '../../components/Dropdown/Dropdown.css';
-
 import './NavBar.css';
-
+import Dropdown from '../../components/Dropdown/Dropdown';
 import Logo from './HTB_Final_LogoMark_1x1.png';
 
 class NavBar extends React.Component {
@@ -36,7 +33,7 @@ class NavBar extends React.Component {
           </li>
         
           <li onClick={this.handleClick}>
-            {!this.state.clicked ? <Link to='/#'>spill the whine</Link>  : <Dropdown />}  
+            {this.state.clicked ? <Dropdown /> : <Link to='/#'>spill the whine</Link>}  
           </li>
                   
           <li>  

@@ -6,15 +6,17 @@ import './Dropdown.css';
 class Dropdown extends React.Component {
     render() {
         return (
-          <ul className='dropdown'>
+          <React.Fragment>
           <li>spill the whine</li>
-            <Link to='/newsletter'>
-              <li>newsletter</li>
-            </Link>
-            <Link to='/submissions'>
-              <li>submissions</li>
-            </Link>
+          <ul className='dropdown'>
+            <li className='drop-item'>  
+              <Link to='/newsletter'>newsletter</Link> 
+            </li>
+            <li className='drop-item'>  
+              <Link to='/submissions'>submissions</Link> 
+            </li>
           </ul>
+          </React.Fragment>
         )
     };
 };

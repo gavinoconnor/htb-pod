@@ -1,7 +1,13 @@
 .dropdown {
-    list-style-type: none;
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    position: absolute;
+    padding: .5rem;
+    transform: translateX(-25%);
+    overflow: hidden;
 }
+
+
+
 
