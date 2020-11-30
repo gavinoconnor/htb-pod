@@ -7,7 +7,7 @@ import founderPhoto from './Cheers_photo.png';
 class Home extends React.Component {
   render() {
     return (
-      <div className='Home'>
+      <div className='home'>
         <img src={backgroundImage} alt='' className='bg-image' />
         <div className='topline'>
           <p>two moms. two kids. <br />too many reasons to give two shits.</p>

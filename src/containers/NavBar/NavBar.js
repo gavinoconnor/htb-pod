@@ -10,10 +10,10 @@ import Logo from './HTB_Final_LogoMark_1x1.png';
 class NavBar extends React.Component {
 
   state = {
-    isHovering: false
+    clicked: false
   }
 
-  handleHover = () => {
+  handleClick = () => {
    this.setState({
      isHovering: !this.state.isHovering
     });
@@ -30,22 +30,17 @@ class NavBar extends React.Component {
         </div>
 
         <ul className='nav-links'>
-          <Link to='/episodes'>
-            <li>episodes</li>
-          </Link> 
-
-          <Link to='/#'>
-          {
-            !this.state.isHovering ? (
-              <li onMouseEnter={this.handleHover}>resources</li>  
-            ) : 
-            <Dropdown />
-          }
-          </Link>
-         
-          <Link to='/sitwithus'>
-            <li>sit with us</li>
-          </Link>
+          <li>  
+            <Link to='/episodes'>episodes</Link> 
+          </li>
+        
+          <li onClick={this.handleClick}>
+            {!this.state.isHovering ? <Link to='/#'>resources</Link>  : <Dropdown />}  
+          </li>
+                  
+          <li>  
+            <Link to='/sitwithus'>sit with us</Link> 
+          </li>
         </ul>
 
       </nav>
