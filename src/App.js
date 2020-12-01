@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import Home from '../src/components/Home/Home';
@@ -18,7 +18,6 @@ import Footer from './components/Footer/Footer';
 class App extends React.Component {
   render() {
     return (
-      <Router>
         <div className='App'>
           <NavBar />
           <Switch>
@@ -33,7 +32,6 @@ class App extends React.Component {
           </Switch>
           <Footer />
         </div>
-      </Router>
     );
   }
 }
