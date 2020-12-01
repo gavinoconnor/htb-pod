@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './NavBar.css';
 import Dropdown from '../../components/Dropdown/Dropdown';
-import Logo from './HTB_Final_LogoMark_1x1.png';
+import Logo from '../../assets/HTB_Final_LogoMark_1x1.png';
 
 class NavBar extends React.Component {
 
