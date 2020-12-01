@@ -8,7 +8,7 @@ import './SitWithUs.css';
 class SitWithUs extends React.Component {
   render() {
     return (
-      <div className='SitWithUs'>
+      <div className='sitwithus'>
         <h1>Sit With Us</h1>
         <OurStory />
         

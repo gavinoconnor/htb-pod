@@ -10,6 +10,13 @@
   height: 60px;
 }
 
+@media only screen and (max-width: 560px) {
+  .navbar {
+    display: flex;
+    padding: 10px;
+  }
+ }
+
 /* Nav element styles */
 
 .nav-links {
@@ -22,9 +29,24 @@
   font-weight: 300;
 }
 
+@media only screen and (max-width: 560px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    margin-top: 70px;
+  }
+ }
+
 .nav-links li {
   white-space: nowrap;
 }
+
+@media only screen and (max-width: 560px) {
+  .nav-links li:nth-child(2) {
+    display: none;
+  }
+ }
 
 .nav-links a {
   color: inherit;
@@ -41,4 +63,11 @@
   width: 5em;
   margin-right: 20px;
 }
+
+@media only screen and (max-width: 560px) {
+  .logo img {
+    display: flex;
+    padding: 10px;
+  }
+ }
 

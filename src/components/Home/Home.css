@@ -2,8 +2,18 @@
 
 .home {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50px 250px 800px;
+}
+
+@media only screen and (max-width: 560px) {
+ .home {
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    max-width: 100%;
+    margin-top: 20px;
+ }
 }
 
 .home p {
@@ -13,6 +23,15 @@
   text-align: center;
   font-weight: 300;
   }
+
+@media only screen and (max-width: 560px) {
+  .home p {
+      text-align: center;
+      font-size: 1.1rem;
+      padding: 10px;
+  }
+}
+
 
 /* Home element styles */
 
@@ -26,6 +45,13 @@
   padding: 0.5rem;
 }
 
+@media only screen and (max-width: 560px) {
+  .bg-image {
+    margin-top: 20px;
+    width: 90%;
+  }
+ }
+
 .topline {
   display: grid;
   grid-column-start: 2;
@@ -33,6 +59,12 @@
   justify-self: center;
   align-self: end;
   width: 650px;
+}
+
+@media only screen and (max-width: 560px) {
+  .topline {
+    display: flex;
+  }
 }
 
 .bottomline {
@@ -43,6 +75,11 @@
   align-self: end;
 }
 
+@media only screen and (max-width: 560px) {
+  .bottomline {
+    display: flex; 
+  }
+ }
 
 .cheers-photo {
   display: grid;
@@ -54,10 +91,23 @@
   justify-self: center;
 }
 
+@media only screen and (max-width: 560px) {
+  .cheers-photo {
+    display: none;
+  }
+ }
+
 .logo-image {
   z-index: 1;
   width: 250px;
   place-self: center;
 }
 
-
+@media only screen and (max-width: 560px) {
+  .logo-image {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 18%;
+  }
+ }
