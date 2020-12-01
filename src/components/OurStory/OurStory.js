@@ -12,8 +12,8 @@ class OurStory extends React.Component {
 
         <p>We want to hear from <strong>you</strong>! Send us an email at <u><a href='mailto:hello@hittingthebottle.com'>hello@hittingthebottle.com</a></u></p>
         
-        <p>Follow Alysia and Sarah at [Instagram]</p>
-      
+        <p>Find Alysia and Sarah at <a href='https://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
+        </a></p>
     </div>
     )
   }

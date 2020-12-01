@@ -15,3 +15,7 @@
       justify-self: center;
       white-space: nowrap;
   }
+
+  .footer a {
+    color: inherit;
+  }
