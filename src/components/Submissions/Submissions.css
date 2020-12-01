@@ -1,6 +1,5 @@
-.Submissions {
-  display: flex;
-  justify-content: space-around;
-  font-size: 1.2rem;
-  font-weight: 300;
+.submissions {
+  min-height: 86vh;
+  display: grid;
+  align-content: center;
 }

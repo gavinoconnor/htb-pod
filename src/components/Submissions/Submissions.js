@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './Submissions';
+import './Submissions.css';
 
 class Submissions extends React.Component {
   render() {
     return (
-      <div className='Submissions'>
-        <h1>Submissions</h1>
+      <div className='submissions'>
+        <h1>Submissions info coming soon!</h1>
       </div>
     )
   }

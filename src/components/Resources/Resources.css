@@ -1,3 +1,6 @@
 .resources {
-    color: white;
+    min-height: 86vh;
+    display: grid;
+    align-content: center;
 }
+

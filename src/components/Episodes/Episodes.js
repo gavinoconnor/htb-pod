@@ -5,8 +5,17 @@ import './Episodes.css';
 class Episodes extends React.Component {
   render() {
     return (
-      <div className='Episodes'>
+      <div className='episodes'>
         <h1>Episodes</h1>
+        <div className='pod-player'>
+          <iframe title='Latest Episode'
+          style={{width: '100%', height: '170px'}} 
+          frameborder="no" 
+          scrolling="no" 
+          seamless 
+          src="https://player.captivate.fm/show/00dd4d8f-76c7-4960-850b-2a73acfed083/latest/">
+          </iframe>
+        </div>
       </div>
     )
   }

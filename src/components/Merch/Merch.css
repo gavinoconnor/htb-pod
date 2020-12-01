@@ -1,6 +1,6 @@
 .merch {
-  display: flex;
-  justify-content: space-around;
-  font-size: 1.2rem;
-  font-weight: 300;
+  min-height: 86vh;
+  display: grid;
+  align-content: center;
 }
+
