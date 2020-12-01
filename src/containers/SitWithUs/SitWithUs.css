@@ -1,8 +1,4 @@
 .SitWithUs {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   font-size: 1.2rem;
   font-weight: 300;
-  text-align: center;
 }

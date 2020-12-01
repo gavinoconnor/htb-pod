@@ -1,0 +1,9 @@
+.about {
+    text-align: left;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.about a {
+    color: inherit;
+}
