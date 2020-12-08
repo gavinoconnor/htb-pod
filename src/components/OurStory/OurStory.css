@@ -1,13 +1,46 @@
 .about {
-    text-align: left;
-    line-height: 30px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 300px 75%;
+  grid-template-rows: 500px 500px 250px;
+}
+
+.about img {
+  max-width: 300px;
+  padding: 20px;
 }
 
 .about a {
-    color: inherit;
+  color: inherit;
+}
+
+.about p {
+  padding: 20px;
+  text-align: left;
+  line-height: 1.5em;
 }
 
 .fa-instagram {
-    color: darkslategray;
-  }
+  color: darkslategray;
+}
+
+.alysia {
+  display: grid;
+  grid-column: 1 / -1;
+}
+.alysia p {
+  grid-column-start: 2;
+}
+
+.sarah {
+  display: grid;
+  grid-column: 1 / -1;
+}
+.sarah p {
+  grid-column-start: 2;
+}
+
+.more {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1 / -1;
+}

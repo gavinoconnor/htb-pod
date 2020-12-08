@@ -11,7 +11,6 @@ class SitWithUs extends React.Component {
       <div className='sitwithus'>
         <h1>Sit With Us</h1>
         <OurStory />
-        
       </div>
     )
   }
