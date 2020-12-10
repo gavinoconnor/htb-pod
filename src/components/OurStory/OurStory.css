@@ -4,10 +4,24 @@
   grid-template-rows: 500px 500px 250px;
 }
 
+@media only screen and (max-width: 560px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1% 45% 1% 45% 5%;
+  }
+ }
+
 .about img {
-  max-width: 300px;
+  max-width: 275px;
   padding: 20px;
 }
+
+@media only screen and (max-width: 560px) {
+  .about img {
+    max-width: 100px;
+  }
+ }
 
 .about a {
   color: inherit;
@@ -19,6 +33,12 @@
   line-height: 1.5em;
 }
 
+@media only screen and (max-width: 560px) {
+  .about p {
+    font-size: 1rem;
+  }
+ }
+
 .fa-instagram {
   color: darkslategray;
 }
@@ -27,20 +47,73 @@
   display: grid;
   grid-column: 1 / -1;
 }
+@media only screen and (max-width: 560px) {
+  .alysia {
+    display: grid;
+    grid-row-start: 1;
+  }
+ }
+ @media only screen and (max-width: 560px) {
+   .alysia img {
+     grid-row-start: 1;
+     place-self: center;
+   }
+  }
+
 .alysia p {
   grid-column-start: 2;
 }
+
+ @media only screen and (max-width: 560px) {
+  .alysia p {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+ }
 
 .sarah {
   display: grid;
   grid-column: 1 / -1;
 }
+
 .sarah p {
   grid-column-start: 2;
 }
+
+@media only screen and (max-width: 560px) {
+  .sarah {
+    display: grid;
+    grid-row-start: 3;
+  }
+ }
+@media only screen and (max-width: 560px) {
+ .sarah p {
+   grid-column-start: 1;
+   grid-row-start: 4;
+ }
+}
+@media only screen and (max-width: 560px) {
+  .sarah img {
+    grid-row-start: 3;
+    place-self: center;
+  }
+ }
 
 .more {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column: 1 / -1;
+}
+
+@media only screen and (max-width: 560px) {
+  .more {
+    display: grid;
+    grid-row-start: 5;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .hide {
+    display: none;
+  }
 }
