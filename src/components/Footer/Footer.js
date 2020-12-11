@@ -8,7 +8,7 @@ class Footer extends React.Component {
       <footer className='footer'>
         <ul>
           <li>© 2020 Hitting the Bottle</li>
-          <li><a href='mailto:hello@hittingthebottle.com'>hello@hittingthebottle.com</a></li>
+          <li><a href='mailto:hello@hittingthebottle.com'>hello@hittingthebottlepod.com</a></li>
         </ul>
       </footer>
     )

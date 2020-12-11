@@ -4,7 +4,7 @@ import './Home.css';
 
 // import images
 import backgroundImage from '../../assets/HTB_Final_Girls_1x1.png';
-import founderPhoto from '../../assets/Cheers_photo.png';
+import founderPhoto from '../../assets/Cheers_final.png';
 import logoImage from '../../assets/HTB_Final_Logo_1x1.png';
 
 class Home extends React.Component {
