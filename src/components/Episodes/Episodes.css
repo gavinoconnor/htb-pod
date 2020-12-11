@@ -8,21 +8,19 @@
   }
  }
 
-h1 {
-  color: black;
-}
-
 .pod-player {
-  padding: 5px;
-  width: 100%; 
-  height: 600px; 
-  margin-bottom: 20px; 
-  border-radius: 10px; 
+  /* border: 1px solid black; */
+  width: 95%;
+  height: 500px;
+  margin-top: 50px;
+  padding-left: 40px;
   overflow: hidden;
 }
 
 @media only screen and (max-width: 560px) {
   .pod-player {
-    width: 80%;
+    padding-top: 20px;
+    width: 85%;
+    height: 95%;
   }
  }
