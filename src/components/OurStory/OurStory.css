@@ -43,8 +43,9 @@
 
  /* Alysia container styles */
  .alysia {
+   width: 100%;
    display: grid;
-   grid-template-rows: 170px 140px 150px;
+   grid-template-rows: 30% 30% 30%;
    grid-column: 1 / -1;
   }
   .alysia p {
@@ -74,6 +75,7 @@
   /* Sarah container styles */
   .sarah {
     display: grid;
+    grid-template-rows: 200px 140px 150px;
     grid-column: 1 / -1;
   }
   
