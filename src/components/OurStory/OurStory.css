@@ -2,7 +2,7 @@
 .about {
   display: grid;
   grid-template-columns: 300px 75%;
-  grid-template-rows: 500px 500px 250px;
+  grid-template-rows: 500px 500px 100px;
   padding: 40px;
   margin-top: 20px;
 }
@@ -107,8 +107,10 @@
   /* Social Media section styles */
   .more {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-column: 1 / -1;
+    justify-items: center;
+    font-size: 1.8rem;
   }
   @media only screen and (max-width: 560px) {
     .more {
@@ -125,5 +127,5 @@
   
   /* Font Awesome icon styles */
   .fa-instagram {
-    color: darkslategray;
+    color: black;
   }

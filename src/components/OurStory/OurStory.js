@@ -37,7 +37,12 @@ class OurStory extends React.Component {
         </div>
 
         <div className="more">
-          <p className='hide'>Find Alysia and Sarah at <a href='https://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
+          <p className='hide'>Find us at: 
+          <a href='https://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
+          </a>
+          <a href='https://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
+          </a>
+          <a href='https://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
           </a>
           </p>
         </div>
