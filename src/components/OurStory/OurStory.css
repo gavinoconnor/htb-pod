@@ -1,16 +1,11 @@
+/* Sit With Us container styles */
 .about {
   display: grid;
   grid-template-columns: 300px 75%;
   grid-template-rows: 500px 500px 250px;
+  padding: 40px;
+  margin-top: 20px;
 }
-
-@media only screen and (max-width: 560px) {
-  .about {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1% 45% 1% 45% 5%;
-  }
- }
 
 .about img {
   max-width: 275px;
@@ -18,104 +13,115 @@
   border-radius: 10%;
 }
 
-@media only screen and (max-width: 560px) {
-  .about img {
-    max-width: 100px;
-  }
- }
-
 .about a {
   color: inherit;
 }
 
 .about p {
-  padding: 20px;
   text-align: left;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
+/* Sit With Us container media queries */
+@media only screen and (max-width: 560px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1% 45% 1% 45% 5%;
+  }
+ }
+@media only screen and (max-width: 560px) {
+  .about img {
+    max-width: 100px;
+  }
+ }
 @media only screen and (max-width: 560px) {
   .about p {
     font-size: 1rem;
   }
  }
 
-.fa-instagram {
-  color: darkslategray;
-}
-
-.alysia {
-  display: grid;
-  grid-column: 1 / -1;
-}
-@media only screen and (max-width: 560px) {
-  .alysia {
-    display: grid;
-    grid-row-start: 1;
+ /* Alysia container styles */
+ .alysia {
+   display: grid;
+   grid-template-rows: 170px 140px 150px;
+   grid-column: 1 / -1;
   }
- }
- @media only screen and (max-width: 560px) {
-   .alysia img {
-     grid-row-start: 1;
-     place-self: center;
-   }
-  }
-
-.alysia p {
-  grid-column-start: 2;
-}
-
- @media only screen and (max-width: 560px) {
   .alysia p {
-    grid-column-start: 1;
-    grid-row-start: 2;
+    grid-column-start: 2;
   }
- }
 
-.sarah {
-  display: grid;
-  grid-column: 1 / -1;
-}
-
-.sarah p {
-  grid-column-start: 2;
-}
-
-@media only screen and (max-width: 560px) {
+  /* Alysia container media queries */
+  @media only screen and (max-width: 560px) {
+    .alysia {
+      display: grid;
+      grid-row-start: 1;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .alysia img {
+      grid-row-start: 1;
+      place-self: center;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .alysia p {
+      grid-column-start: 1;
+      grid-row-start: 2;
+    }
+  }
+  
+  /* Sarah container styles */
   .sarah {
     display: grid;
-    grid-row-start: 3;
+    grid-column: 1 / -1;
   }
- }
-@media only screen and (max-width: 560px) {
- .sarah p {
-   grid-column-start: 1;
-   grid-row-start: 4;
- }
-}
-@media only screen and (max-width: 560px) {
-  .sarah img {
-    grid-row-start: 3;
-    place-self: center;
+  
+  .sarah p {
+    grid-column-start: 2;
   }
- }
+  
+  /* Sarah container media queries */
+  @media only screen and (max-width: 560px) {
+    .sarah {
+      display: grid;
+      grid-row-start: 3;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .sarah p {
+      grid-column-start: 1;
+      grid-row-start: 4;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .sarah img {
+      grid-row-start: 3;
+      place-self: center;
+    }
+  }
+  
 
-.more {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column: 1 / -1;
-}
-
-@media only screen and (max-width: 560px) {
+  /* Social Media section styles */
   .more {
     display: grid;
-    grid-row-start: 5;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1 / -1;
   }
-}
-
-@media only screen and (max-width: 560px) {
-  .hide {
-    display: none;
-    grid-row-start: 5;
+  @media only screen and (max-width: 560px) {
+    .more {
+      display: grid;
+      grid-row-start: 5;
+    }
   }
-}
+  @media only screen and (max-width: 560px) {
+    .hide {
+      display: none;
+      grid-row-start: 5;
+    }
+  }
+  
+  /* Font Awesome icon styles */
+  .fa-instagram {
+    color: darkslategray;
+  }
