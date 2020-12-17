@@ -1,21 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Dropdown from '../../components/Dropdown/Dropdown';
 
 import './NavBar.css';
-import Logo from '../../assets/HTB_Final_LogoMark_1x1.png';
+import Logo from '../../assets/HTB_Final_Logo_1x1.png';
 
 class NavBar extends React.Component {
-
-  state = {
-    clicked: false
-  }
-
-  handleClick = () => {
-   this.setState({
-     clicked: !this.state.clicked
-    });
-  }
 
   render() {
     return (
@@ -23,7 +12,7 @@ class NavBar extends React.Component {
 
         <div className='logo'>
           <Link to='/'>
-            <img src={Logo} alt='pod-logo' width='20%' />
+            <img src={Logo} alt='pod-logo'/>
           </Link>
         </div>
 
@@ -32,12 +21,16 @@ class NavBar extends React.Component {
             <Link to='/episodes'>episodes</Link> 
           </li>
         
-          <li onClick={this.handleClick}>
-            {this.state.clicked ? <Dropdown /> : <Link to='/#'>spill the whine</Link>}  
+          <li>
+            <Link to='/spillthewhine'>spill the whine</Link> 
           </li>
                   
           <li>  
             <Link to='/sitwithus'>sit with us</Link> 
+          </li>
+
+          <li>  
+            <Link to='/patreon'>patreon</Link> 
           </li>
 
           <li>  

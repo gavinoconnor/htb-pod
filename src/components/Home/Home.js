@@ -8,20 +8,12 @@ import founderPhoto from '../../assets/Cheers_final.png';
 import logoImage from '../../assets/HTB_Final_Logo_1x1.png';
 
 class Home extends React.Component {
-// "preload" images
-  componentDidMount() {
-    const imageList = [backgroundImage, founderPhoto, logoImage]
-    imageList.forEach((image) => {
-      new Image().src = image;
-    });
-  }
 
   render() {
     return (
       <div className='home'>
       <img src={backgroundImage} alt='' className='bg-image' />
       <div className='topline'>
-      <img src={logoImage} alt='' className='logo-image'/>
           <p>two moms. two kids.<br />too many reasons to give two shits.</p> 
         </div>
         <img src={founderPhoto} alt='' className='cheers-photo' />

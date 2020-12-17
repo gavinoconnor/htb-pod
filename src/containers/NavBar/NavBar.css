@@ -1,52 +1,43 @@
 /* NavBar universal styles */
-
 .navbar {
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  align-items: center;
-  justify-items: center;
-  position: relative;
-  padding: 0.5 1rem;
-  height: 60px;
+  grid-template-rows: 90% 10%;
 }
 
-@media only screen and (max-width: 560px) {
+/* @media only screen and (max-width: 560px) {
   .navbar {
     display: flex;
     padding: 10px;
   }
+ } */
+
+ /* Logo image styles */
+ .logo {
+   display: grid;
+   place-self: center;
+   padding: 20px;
  }
 
-/* Nav element styles */
+ .logo img {
+   width: 200px;
+ }
+ 
+ /* @media only screen and (max-width: 560px) {
+   .logo img {
+     display: flex;
+     padding: 10px;
+   }
+  } */
 
+/* Nav elements styles */
 .nav-links {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 15px;
-  grid-column-start: 3;
-  margin-right: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-row-start: 2;
   font-size: 1.2rem;
   font-weight: 300;
+  justify-items: center;
 }
-
-@media only screen and (max-width: 560px) {
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    padding: 80px;
-    margin-top: 70px;
-  }
- }
-
-.nav-links li {
-  white-space: nowrap;
-}
-
-@media only screen and (max-width: 560px) {
-  .nav-links li:nth-child(2) {
-    display: none;
-  }
- }
 
 .nav-links a {
   color: inherit;
@@ -56,18 +47,14 @@
   font-weight: bold;
 }
 
-/* Logo image styles */
-
-.logo img {
-  display: grid;
-  width: 5em;
-  margin-right: 20px;
-}
-
-@media only screen and (max-width: 560px) {
-  .logo img {
+/* @media only screen and (max-width: 560px) {
+  .nav-links {
     display: flex;
-    padding: 10px;
+    flex-direction: column;
+    padding: 80px;
+    margin-top: 70px;
   }
- }
+ } */
+
+
 
