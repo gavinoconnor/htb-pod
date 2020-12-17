@@ -1,19 +1,13 @@
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
     padding: 1rem;
+    background-color: rgba(227, 140, 103, 0.9);
   }
-
+  
   .footer ul {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
     list-style: none; 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: 1 / -1;
-  }
-
-  .footer li {
-      justify-self: center;
-      white-space: nowrap;
   }
 
   .footer a {
