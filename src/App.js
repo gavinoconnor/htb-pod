@@ -8,7 +8,7 @@ import Home from '../src/components/Home/Home';
 import Episodes from '../src/components/Episodes/Episodes';
 import SpillTheWhine from '../src/containers/SpillTheWhine/SpillTheWhine';
 import Patreon from '../src/components/Patreon/Patreon';
-import SitWithUs from '../src/containers/SitWithUs/SitWithUs';
+import SitWithUs from '../src/components/SitWithUs/SitWithUs';
 import Merch from '../src/components/Merch/Merch';
 import Resources from '../src/components/Resources/Resources';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './OurStory.css';
+import './SitWithUs.css';
 import Sarah from '../../assets/sarah.jpg';
 import Alysia from '../../assets/alysia.jpg';
 
@@ -8,7 +8,7 @@ import Alysia from '../../assets/alysia.jpg';
 class OurStory extends React.Component {
   render() {
     return (
-      <div className='about'>
+      <div className='sitwithus'>
 
         <div className="alysia">
           <img src={Alysia} alt="alysia" />
