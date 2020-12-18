@@ -13,6 +13,12 @@ input:focus {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 560px) {
+  .App {
+    background-size: contain;
+  }
+}
+
 h1 {
   padding: .66rem 0;
   text-align: center;

@@ -11,7 +11,7 @@ class OurStory extends React.Component {
       <div className='sitwithus'>
 
         <div className="alysia">
-          <img src={Alysia} alt="alysia" />
+          <img src={Alysia} alt="alysia" style={{ borderRadius: '15%' }}/>
           <p>
             <strong>Alysia</strong>, who originally hails from Los Angeles, has now resided in the Boston area for more than half a decade. Ask her four years ago if she pictured herself with a kid and she would’ve poured her shot of tequila on you. However, here she (happily!) is. She is a novice mom to 3-year-old River James, who is as sparkling, fierce, and untamed as her name might suggest.
           </p>
@@ -24,7 +24,7 @@ class OurStory extends React.Component {
         </div>
 
         <div className="sarah">
-          <img src={Sarah} alt="sarah" />
+          <img src={Sarah} alt="sarah" style={{ borderRadius: '15%' }}/>
           <p>
             <strong>Sarah</strong> is a self-proclaimed mom expert who truly has no idea what the f*ck she is doing. Fake it ‘til you make it, isn’t that what they say?  Coming from a diverse background including - but not limited to - corporate retail, design, and a quick-but-very-fun stint in bartending, motherhood was a far cry from her career path. Not one to back down, she accepted the role and is doing the best she can. She is a single mama to a sprightly three-year-old Owen Fox, who is an actual tornado of love and mischief.
           </p>

@@ -6,7 +6,7 @@ import './App.css';
 
 import Home from '../src/components/Home/Home';
 import Episodes from '../src/components/Episodes/Episodes';
-import SpillTheWhine from '../src/containers/SpillTheWhine/SpillTheWhine';
+import SpillTheWhine from '../src/components/SpillTheWhine/SpillTheWhine';
 import Patreon from '../src/components/Patreon/Patreon';
 import SitWithUs from '../src/components/SitWithUs/SitWithUs';
 import Merch from '../src/components/Merch/Merch';
