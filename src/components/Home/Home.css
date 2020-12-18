@@ -1,5 +1,4 @@
 /* Universal Home styles */
-
 .home {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -7,13 +6,11 @@
 }
 
 @media only screen and (max-width: 560px) {
- /* .home {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 45px;
-    max-width: 100%;
-    margin-top: 20px;
- } */
+ .home {
+    display: grid;
+    grid-template-rows: 100px 350px 150px;
+    margin-bottom: 60px;
+ }
 }
 
 .home p {
@@ -21,13 +18,12 @@
   font-size: 1.8rem;
   text-align: center;
   font-weight: 300;
-  }
+}
 
 @media only screen and (max-width: 560px) {
   .home p {
-      text-align: center;
-      font-size: 1.1rem;
-      padding: 10px;
+    font-size: 1.6rem;
+    font-weight: 400;
   }
 }
 
@@ -40,26 +36,15 @@
   align-self: start;
   width: 500px;
 }
-
 @media only screen and (max-width: 560px) {
   .topline {
-    display: flex;
+    display: grid;
+    grid-row-start: 1;
+    place-self: center;
+    overflow: hidden;
+    max-width: 375px;
   }
 }
-
-.bottomline {
-  display: grid;
-  grid-column-start: 2;
-  grid-row: 3 / span 1;
-  justify-self: center;
-  align-self: end;
-}
-
-@media only screen and (max-width: 560px) {
-  .bottomline {
-    display: flex; 
-  }
- }
 
 .cheers-photo {
   display: grid;
@@ -74,6 +59,27 @@
 
 @media only screen and (max-width: 560px) {
   .cheers-photo {
-    display: none;
+    width: 400px;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+  }
+ }
+
+.bottomline {
+  display: grid;
+  grid-column-start: 2;
+  grid-row: 3 / span 1;
+  justify-self: center;
+  align-self: end;
+}
+
+@media only screen and (max-width: 560px) {
+  .bottomline {
+    display: grid; 
+    grid-row-start: 3;
+    align-self: center;
   }
  }
