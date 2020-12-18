@@ -1,9 +1,7 @@
 /* Universal Styles */
-
 html {
   font-size: 18px;
 }
-
 /* @media only screen and (max-width: 560px) {
   html {
     font-size: 15px;
@@ -15,11 +13,12 @@ input:focus {
 }
 
 /* App Styles */
-
 .App {
   font-family: Spartan, sans-serif;
-  font-weight: 100;
-  background: #F5E1C1;
+  background: linear-gradient(rgba(245, 225, 194, 0.75), rgba(245, 225, 194, 0.75)), url(./assets/HTB_Final_Girls_1x1.png);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -30,3 +29,12 @@ h1 {
   color: #fff;
   text-transform: uppercase;
 }
+
+/* .bg-image {
+  position: relative;
+  opacity: 0.15;
+  border-radius: 25%;
+  margin: 0 auto;
+  width: 1000px;
+  padding: 0.5rem;
+} */
