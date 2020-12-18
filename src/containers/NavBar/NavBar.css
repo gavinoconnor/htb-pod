@@ -2,7 +2,6 @@
 .navbar {
   display: grid;
   grid-template-rows: 90% 10%;
-  
 }
 
 /* @media only screen and (max-width: 560px) {
@@ -36,8 +35,9 @@
   grid-template-columns: repeat(6, 1fr);
   grid-row-start: 2;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   justify-items: center;
+  
 }
 
 .nav-links a {

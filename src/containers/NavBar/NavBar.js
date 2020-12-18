@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './NavBar.css';
 import Logo from '../../assets/HTB_Final_Logo_1x1.png';
@@ -11,35 +11,47 @@ class NavBar extends React.Component {
       <nav className='navbar'>
 
         <div className='logo'>
-          <Link to='/'>
-            <img src={Logo} alt='pod-logo'/>
-          </Link>
+          <NavLink to='/'>
+            <img src={Logo} alt='pod-logo' />
+          </NavLink>
         </div>
 
         <ul className='nav-links'>
-          <li>  
-            <Link to='/episodes'>episodes</Link> 
-          </li>
-        
           <li>
-            <Link to='/spillthewhine'>spill the whine</Link> 
-          </li>
-                  
-          <li>  
-            <Link to='/sitwithus'>sit with us</Link> 
+            <NavLink
+              to='/episodes'
+              activeStyle={{ fontWeight: 'bold' }}>episodes</NavLink>
           </li>
 
-          <li>  
-            <Link to='/patreon'>patreon</Link> 
+          <li>
+            <NavLink
+              to='/spillthewhine'
+              activeStyle={{ fontWeight: 'bold' }}>spill the whine</NavLink>
           </li>
 
-          <li>  
-            <Link to='/resources'>resources</Link> 
+          <li>
+            <NavLink
+              to='/sitwithus'
+              activeStyle={{ fontWeight: 'bold' }}>sit with us</NavLink>
           </li>
 
-        <li>  
-          <Link to='/merch'>merch</Link> 
-        </li>
+          <li>
+            <NavLink
+              to='/patreon'
+              activeStyle={{ fontWeight: 'bold' }}>patreon</NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to='/resources'
+              activeStyle={{ fontWeight: 'bold' }}>resources</NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to='/merch'
+              activeStyle={{ fontWeight: 'bold' }}>merch</NavLink>
+          </li>
         </ul>
 
       </nav>
