@@ -3,23 +3,22 @@
 .home {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 50px 250px 800px;
+  grid-template-rows: 10% 80% 10%;
 }
 
 @media only screen and (max-width: 560px) {
- .home {
+ /* .home {
     display: flex;
     flex-direction: column;
     padding-bottom: 45px;
     max-width: 100%;
     margin-top: 20px;
- }
+ } */
 }
 
 .home p {
   font-family: Spartan;
   font-size: 1.8rem;
-  z-index: 1;
   text-align: center;
   font-weight: 300;
   }
@@ -32,33 +31,14 @@
   }
 }
 
-
 /* Home element styles */
-
-.bg-image {
-  position: relative;
-  grid-column: 1 / -1;
-  opacity: 0.15;
-  border-radius: 25%;
-  margin: 0 auto;
-  width: 1000px;
-  padding: 0.5rem;
-}
-
-@media only screen and (max-width: 560px) {
-  .bg-image {
-    margin-top: 20px;
-    width: 90%;
-  }
- }
-
 .topline {
   display: grid;
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 1;
   justify-self: center;
-  align-self: end;
-  width: 650px;
+  align-self: start;
+  width: 500px;
 }
 
 @media only screen and (max-width: 560px) {
@@ -70,7 +50,7 @@
 .bottomline {
   display: grid;
   grid-column-start: 2;
-  grid-row: 3;
+  grid-row: 3 / span 1;
   justify-self: center;
   align-self: end;
 }
@@ -85,29 +65,15 @@
   display: grid;
   z-index: 1;
   grid-column-start: 2;
-  grid-row-start: 3;
+  grid-row-start: 2;
   border-radius: 42%;
   width: 800px;
   justify-self: center;
+  align-self: start;
 }
 
 @media only screen and (max-width: 560px) {
   .cheers-photo {
     display: none;
-  }
- }
-
-.logo-image {
-  z-index: 1;
-  width: 250px;
-  place-self: center;
-}
-
-@media only screen and (max-width: 560px) {
-  .logo-image {
-    display: flex;
-    position: absolute;
-    top: 35%;
-    left: 18%;
   }
  }

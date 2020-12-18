@@ -26,15 +26,6 @@ h1 {
   text-align: center;
   font-size: 1.8rem;
   font-weight: 300;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
 }
-
-/* .bg-image {
-  position: relative;
-  opacity: 0.15;
-  border-radius: 25%;
-  margin: 0 auto;
-  width: 1000px;
-  padding: 0.5rem;
-} */

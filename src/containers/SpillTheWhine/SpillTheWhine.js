@@ -6,7 +6,7 @@ class SpillTheWhine extends React.Component {
   render() {
     return (
       <div className='spill'>
-        <h1>SpillTheWhine</h1>
+        <h1>Spill The Whine coming soon!</h1>
 
       </div>
     )
