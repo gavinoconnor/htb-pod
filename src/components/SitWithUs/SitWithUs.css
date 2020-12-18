@@ -20,7 +20,7 @@
 .sitwithus p {
   text-align: left;
   line-height: 1.4em;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   width: 90%;
 }
 
@@ -98,8 +98,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-column: 1 / -1;
-    justify-items: center;
-    font-size: 1.8rem;
+    justify-self: center;
+    font-size: 1.6rem;
   }
   @media only screen and (max-width: 560px) {
     .more {
