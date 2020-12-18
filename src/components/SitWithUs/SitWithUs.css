@@ -20,6 +20,8 @@
 .sitwithus p {
   text-align: left;
   line-height: 1.4em;
+  font-size: 1.3rem;
+  width: 90%;
 }
 
 /* Sit With Us container media queries */

@@ -1,5 +1,46 @@
 .patreon {
-  min-height: 86vh;
   display: grid;
-  align-content: center;
+  grid-template-columns: 1fr;
+  padding: 60px;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.patreon p {
+  font-size: 1.3rem;
+  line-height: 1.4em;
+  text-align: left;
+  /* grid-column: 1 / -1; */
+}
+
+.patreon a {
+  color: inherit;
+  padding-bottom: 220px;
+}
+
+@media only screen and (max-width: 560px) {
+  .patreon {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .patreon p {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 35px;
+  }
+}
+
+
+
+.patreon-mark {
+  width: 250px;
+}
+
+.mark {
+ display: flex;
+ justify-content: center;
 }
