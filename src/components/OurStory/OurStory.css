@@ -25,9 +25,12 @@
 /* Sit With Us container media queries */
 @media only screen and (max-width: 560px) {
   .about {
-    display: grid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1% 45% 1% 45% 5%;
+    grid-template-rows: 200px 200px 1fr; */
   }
  }
 @media only screen and (max-width: 560px) {
@@ -55,20 +58,13 @@
   /* Alysia container media queries */
   @media only screen and (max-width: 560px) {
     .alysia {
-      display: grid;
-      grid-row-start: 1;
+      display: flex;
+      flex-direction: column;
     }
   }
-  @media only screen and (max-width: 560px) {
+   @media only screen and (max-width: 560px) {
     .alysia img {
-      grid-row-start: 1;
       place-self: center;
-    }
-  }
-  @media only screen and (max-width: 560px) {
-    .alysia p {
-      grid-column-start: 1;
-      grid-row-start: 2;
     }
   }
   
@@ -86,24 +82,17 @@
   /* Sarah container media queries */
   @media only screen and (max-width: 560px) {
     .sarah {
-      display: grid;
-      grid-row-start: 3;
+      display: flex;
+      flex-direction: column;
     }
   }
-  @media only screen and (max-width: 560px) {
-    .sarah p {
-      grid-column-start: 1;
-      grid-row-start: 4;
-    }
-  }
+ 
   @media only screen and (max-width: 560px) {
     .sarah img {
-      grid-row-start: 3;
       place-self: center;
     }
   }
   
-
   /* Social Media section styles */
   .more {
     display: grid;
@@ -114,16 +103,12 @@
   }
   @media only screen and (max-width: 560px) {
     .more {
-      display: grid;
-      grid-row-start: 5;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
     }
   }
-  @media only screen and (max-width: 560px) {
-    .hide {
-      display: none;
-      grid-row-start: 5;
-    }
-  }
+ 
   
   /* Font Awesome icon styles */
   .fa-instagram {
