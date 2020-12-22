@@ -38,14 +38,44 @@ class OurStory extends React.Component {
 
         <div className="more">
           <section>Find us here: 
-          <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
-          </a>
-          <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
-          </a>
-          {/* <a href='https://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
-          </a> */}
+            <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
+            </a>
+            <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
+            </a>
+            <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
+            </a>
           </section>
         </div>
+
+      
+        {/* <div id="mc_embed_signup">
+
+          <form 
+          action="https://hittingthebottlepod.us7.list-manage.com/subscribe/post?u=b913de7b3cdd65d45dd618db5&amp;id=577ef779d1" 
+          method="post" 
+          id="mc-embedded-subscribe-form" 
+          name="mc-embedded-subscribe-form" 
+          class="validate" 
+          target="_blank" novalidate>
+          
+          <div id="mc_embed_signup_scroll">
+	        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required />
+         
+          <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
+          <input type="text" name="b_b913de7b3cdd65d45dd618db5_577ef779d1" tabindex="-1" value="" />
+          </div>
+          
+          <div class="clear">
+          <input 
+          type="submit" 
+          value="Subscribe" 
+          name="subscribe" 
+          id="mc-embedded-subscribe" 
+          class="button" /></div>
+
+          </div>
+          </form>
+        </div> */}
       </div>
     )
   }
