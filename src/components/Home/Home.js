@@ -22,12 +22,11 @@ class Home extends React.Component {
           <p>shake your beverages. not your babies.</p>
         </div>
         <div className='pod-buttons'>
-          {/* <img src={appleButton} alt='' className='apple-button' /> */}
-          <a href='https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5jYXB0aXZhdGUuZm0vaGl0dGluZ3RoZWJvdHRsZQ%3D%3D'>
-            <img src={googleButton} alt='' className='google-button' style={{ width: '200px' }} />
+          <a href='https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5jYXB0aXZhdGUuZm0vaGl0dGluZ3RoZWJvdHRsZQ%3D%3D' className='google-button'>
+            <img src={googleButton} alt='' style={{ width: '200px' }} />
           </a>
-          <a href='https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5jYXB0aXZhdGUuZm0vaGl0dGluZ3RoZWJvdHRsZQ%3D%3D'>
-            <img src={appleButton} alt='' className='apple-button' style={{ width: '200px' }} />
+          <a href='https://podcasts.apple.com/us/podcast/hitting-the-bottle/id1538173317' className='apple-button'>
+            <img src={appleButton} alt='' style={{ width: '200px' }} />
           </a>
         </div>
       </div>

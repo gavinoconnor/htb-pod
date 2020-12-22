@@ -86,19 +86,13 @@
  }
 
  .pod-buttons {
-    grid-column-start: 2;
-    grid-row-start: 4;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+   display: grid;
+   grid-column-start: 2;
+   grid-row-start: 4;
+   grid-template-columns: 1fr 1fr 1fr;
  }
 
  .apple-button {
-   /* display: grid; */
-   place-self: center;
- }
-
- .google-button {
-   /* display: grid; */
-   place-self: center;
+   grid-column-start: 3;
+   justify-self: end;
  }
