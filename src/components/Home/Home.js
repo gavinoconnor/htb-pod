@@ -3,7 +3,7 @@ import React from 'react';
 import './Home.css';
 
 // import images
-import cheers from '../../assets/Cheers_final.png';
+import cheers from '../../assets/Cheers_final_small.png';
 import appleButton from '../../assets/US_UK_Apple_Podcasts_Listen_Badge_RGB.png';
 import googleButton from '../../assets/EN_Google_Podcasts_Badge_2x.png';
 
