@@ -1,8 +1,6 @@
 /* Sit With Us container styles */
 .sitwithus {
   display: grid;
-  /* grid-template-rows: 45% 45% 5%; */
-  /* grid-template-rows: auto; */
   padding: 40px;
   margin-top: 20px;
 }
@@ -18,7 +16,12 @@
 }
 
 .sitwithus p {
-  text-align: left;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.sitwithus h2 {
+  margin: 0 auto;
 }
 
 .sit-name {
@@ -60,6 +63,7 @@
   .sit-bio-alysia {
     display: grid;
     grid-column-start: 2;
+    
   }
 
   /* Alysia container media queries */
