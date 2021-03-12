@@ -10,34 +10,68 @@ class OurStory extends React.Component {
     return (
       <div className='sitwithus'>
 
+        {/* Alysia's Section */}
         <div className="alysia">
-          <img src={Alysia} alt="alysia" style={{ borderRadius: '15%' }}/>
-          <p>
-            <strong>Alysia</strong>, who originally hails from Los Angeles, has now resided in the Boston area for more than half a decade. Ask her four years ago if she pictured herself with a kid and she would’ve poured her shot of tequila on you. However, here she (happily!) is. She is a novice mom to 3-year-old River James, who is as sparkling, fierce, and untamed as her name might suggest.
-          </p>
-          <p>
-            When not fighting the good fight we lovingly call parenting, Alysia spends her time dabbling in interior design, reading the stack of books she keeps bedside, and playing chef in the kitchen. Alongside Sarah, she’s ready to have inclusive conversations with parents about the good shit, the bad shit and the in-between.
-          </p>
-          <p>
-            After spending many monotonous years pent up in the four walls of an office building, COVID changed everything - and it was time to break free and work from the four walls of home. However, this time she’s her own boss. Give her a spicy mezcal marg and ask her to get real.
-          </p>
+          <img src={Alysia} alt="alysia" style={{ borderRadius: '15%' }} />
+
+          <div className="sit-social-icons">
+            <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
+            </a>
+            <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
+            </a>
+            <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
+            </a>
+          </div>
+
+          <div className='sit-bio'>
+            <h3 className="sit-name">Alysia</h3>
+            <div className='sit-about-alysia'>
+              <p>
+                Originally hails from Los Angeles, has now resided in the Boston area for more than half a decade. Ask her four years ago if she pictured herself with a kid and she would’ve poured her shot of tequila on you. However, here she (happily!) is. She is a novice mom to 3-year-old River James, who is as sparkling, fierce, and untamed as her name might suggest.
+              </p>
+              <p>
+                When not fighting the good fight we lovingly call parenting, Alysia spends her time dabbling in interior design, reading the stack of books she keeps bedside, and playing chef in the kitchen. Alongside Sarah, she’s ready to have inclusive conversations with parents about the good shit, the bad shit and the in-between.
+              </p>
+              <p>
+                After spending many monotonous years pent up in the four walls of an office building, COVID changed everything - and it was time to break free and work from the four walls of home.
+              </p>
+              <p>However, this time she’s her own boss. Give her a spicy mezcal marg and ask her to get real.
+              </p>
+            </div>
+          </div>
         </div>
 
+        {/* Sarah's Section */}
         <div className="sarah">
-          <img src={Sarah} alt="sarah" style={{ borderRadius: '15%' }}/>
-          <p>
-            <strong>Sarah</strong> is a self-proclaimed mom expert who truly has no idea what the f*ck she is doing. Fake it ‘til you make it, isn’t that what they say?  Coming from a diverse background including - but not limited to - corporate retail, design, and a quick-but-very-fun stint in bartending, motherhood was a far cry from her career path. Not one to back down, she accepted the role and is doing the best she can. She is a single mama to a sprightly three-year-old Owen Fox, who is an actual tornado of love and mischief.
-          </p>
-          <p>
-            After quite the life-changing move from the east coast to the west to help a friend launch a new business...a global pandemic hit.  So what does a single mother, unemployed, living across the country from her support system do? Her best to create a community of people who also have no fucking clue what they are doing, drink in hand.
-          </p>
-          <p>
-            Alongside Alysia, Sarah wants to create a safe space to talk about shit: the good, the bad, and the especially hideous. Time to slide down a bourbon on the rocks, sit crooked, and talk straight.
-          </p>
+          <img src={Sarah} alt="sarah" style={{ borderRadius: '15%' }} />
+
+          <div className="social-icons">
+            <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
+            </a>
+            <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
+            </a>
+            <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
+            </a>
+          </div>
+
+          <div className="sit-bio">
+            <h3 className="sit-name">Sarah</h3>
+            <div className='sit-about-sarah'>
+              <p>
+                Is a self-proclaimed mom expert who truly has no idea what the f*ck she is doing. Fake it ‘til you make it, isn’t that what they say?  Coming from a diverse background including - but not limited to - corporate retail, design, and a quick-but-very-fun stint in bartending, motherhood was a far cry from her career path. Not one to back down, she accepted the role and is doing the best she can. She is a single mama to a sprightly three-year-old Owen Fox, who is an actual tornado of love and mischief.
+              </p>
+              <p>
+                After quite the life-changing move from the east coast to the west to help a friend launch a new business...a global pandemic hit.  So what does a single mother, unemployed, living across the country from her support system do? Her best to create a community of people who also have no fucking clue what they are doing, drink in hand.
+              </p>
+              <p>
+                Alongside Alysia, Sarah wants to create a safe space to talk about shit: the good, the bad, and the especially hideous. Time to slide down a bourbon on the rocks, sit crooked, and talk straight.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="more">
-          <section>Find us here: 
+          <section>Find us here:
             <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
             </a>
             <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
@@ -46,36 +80,6 @@ class OurStory extends React.Component {
             </a>
           </section>
         </div>
-
-      
-        {/* <div id="mc_embed_signup">
-
-          <form 
-          action="https://hittingthebottlepod.us7.list-manage.com/subscribe/post?u=b913de7b3cdd65d45dd618db5&amp;id=577ef779d1" 
-          method="post" 
-          id="mc-embedded-subscribe-form" 
-          name="mc-embedded-subscribe-form" 
-          class="validate" 
-          target="_blank" novalidate>
-          
-          <div id="mc_embed_signup_scroll">
-	        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required />
-         
-          <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
-          <input type="text" name="b_b913de7b3cdd65d45dd618db5_577ef779d1" tabindex="-1" value="" />
-          </div>
-          
-          <div class="clear">
-          <input 
-          type="submit" 
-          value="Subscribe" 
-          name="subscribe" 
-          id="mc-embedded-subscribe" 
-          class="button" /></div>
-
-          </div>
-          </form>
-        </div> */}
       </div>
     )
   }
