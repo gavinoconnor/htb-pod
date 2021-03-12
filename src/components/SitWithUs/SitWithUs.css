@@ -1,7 +1,8 @@
 /* Sit With Us container styles */
 .sitwithus {
   display: grid;
-  grid-template-rows: 48% 48% 4%;
+  /* grid-template-rows: 45% 45% 5%; */
+  /* grid-template-rows: auto; */
   padding: 40px;
   margin-top: 20px;
 }
@@ -13,7 +14,7 @@
 }
 
 .sitwithus a {
-  color: red;
+  color: #E38C67
 }
 
 .sitwithus p {
@@ -46,12 +47,18 @@
 
  /* Alysia container styles */
  .alysia {
-   width: 100%;
    display: grid;
-   grid-template-rows: 30% 30% 30%;
-   grid-column: 1 / -1;
+   grid-template-columns: 30% 70%;
+   grid-template-rows: 40% 60%;
   }
-  .alysia p {
+
+  .sit-social-alysia {
+    display: grid;
+    grid-area: 2 / 1;
+  }
+
+  .sit-bio-alysia {
+    display: grid;
     grid-column-start: 2;
   }
 
@@ -72,13 +79,21 @@
   /* Sarah container styles */
   .sarah {
     display: grid;
-    grid-template-rows: 200px 140px 150px;
-    grid-column: 1 / -1;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 40% 60%;
   }
-  
-  .sarah p {
+
+  .sit-social-sarah {
+    display: grid;
+    grid-area: 2 / 1;
+  }
+
+  .sit-bio-sarah {
+    display: grid;
     grid-column-start: 2;
   }
+  
+
   
   /* Sarah container media queries */
   @media only screen and (max-width: 560px) {
@@ -112,9 +127,9 @@
  
   
   /* Font Awesome icon styles */
-  .fa-instagram {
-    color: black;
-  }
+  /* .fa-instagram {
+    color: #E38C67;
+  } */
 
   /* .sitwithus {
     font-size: 1.2rem;
