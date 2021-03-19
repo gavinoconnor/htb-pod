@@ -17,15 +17,15 @@ class OurStory extends React.Component {
             <div className="alysia-social">
               <ul className="social-links">
                 <li>
-                  <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
+                  <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-3x fa-fw'></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
+                  <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-3x fa-fw'></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
+                  <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-3x fa-fw'></i>
                   </a>
                 </li>
               </ul>

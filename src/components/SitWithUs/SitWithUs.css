@@ -17,7 +17,8 @@
 
 .sitwithus p {
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 .sitwithus h2 {
@@ -28,6 +29,17 @@
   font-family: 'Over the Rainbow', cursive;
   text-align: center;
 }
+
+.social-links {
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.social-links li {
+  padding: 10px;
+}
+
+
 
 /* Sit With Us container media queries */
 @media only screen and (max-width: 560px) {
@@ -46,40 +58,37 @@
   .sitwithus p {
     font-size: 1.3rem;
   }
- }
+}
+
 
  /* Alysia container styles */
  .alysia {
    display: grid;
    grid-template-columns: 30% 70%;
-   grid-template-rows: auto;
   }
 
   .alysia-image-and-social {
-    display: grid;
-    place-self: center;
-  }
-
-  .alysia-social {
-    display: grid;
-    place-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   .alysia-name-and-bio {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
   }
 
   .alysia-bio {
-    display: grid;
+    display: flex;
+    flex-direction: column;
   }
 
-  .social-links {
-    display: inline-flex;
-  }
 
   /* Alysia container media queries */
   @media only screen and (max-width: 560px) {
-    .alysia {
+    /* .alysia {
       display: flex;
       flex-direction: column;
       margin-bottom: 20px;
@@ -88,7 +97,7 @@
    @media only screen and (max-width: 560px) {
     .alysia img {
       place-self: center;
-    }
+    } */
   }
   
   /* Sarah container styles */
@@ -141,18 +150,3 @@
   }
  
   
-  /* Font Awesome icon styles */
-  /* .fa-instagram {
-    color: #E38C67;
-  } */
-
-  /* .sitwithus {
-    font-size: 1.2rem;
-    font-weight: 300;
-  }
-  
-  @media only screen and (max-width: 560px) {
-    .sitwithus {
-      margin-top: 60px;
-    }
-   } */
