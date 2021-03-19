@@ -12,20 +12,29 @@ class OurStory extends React.Component {
 
         {/* Alysia's Section */}
         <div className="alysia">
-          <img src={Alysia} alt="alysia" style={{ borderRadius: '15%' }} />
+          <div className="alysia-image-and-social">
+            <img src={Alysia} alt="alysia" style={{ borderRadius: '15%' }} />
+            <div className="alysia-social">
+              <ul className="social-links">
+                <li>
+                  <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
+                  </a>
+                </li>
+              </ul>
 
-          <div className="sit-social-alysia">
-            <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
-            </a>
-            <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
-            </a>
-            <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
-            </a>
+            </div>
           </div>
-
-          <div className='sit-bio-alysia'>
+          <div className="alysia-name-and-bio">
             <h2 className="sit-name" style={{ fontSize: '3em' }}>Alysia</h2>
-            <div className='sit-about-alysia'>
+            <div className='alysia-bio'>
               <p>
                 Originally hails from Los Angeles and has now resided in the Boston area for more than half a decade. Ask her four years ago if she pictured herself with a kid and she would’ve poured her shot of tequila on you. However, here she (happily!) is. She is a novice mom to 3-year-old River James, who is as sparkling, fierce, and untamed as her name might suggest.
               </p>
@@ -38,7 +47,10 @@ class OurStory extends React.Component {
               <p>However, this time she’s her own boss. Give her a spicy mezcal marg and ask her to get real.
               </p>
             </div>
+
           </div>
+
+
         </div>
 
         {/* Sarah's Section */}
