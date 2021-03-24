@@ -29,9 +29,9 @@ class OurStory extends React.Component {
                   </a>
                 </li>
               </ul>
-
             </div>
           </div>
+
           <div className="alysia-name-and-bio">
             <h2 className="sit-name" style={{ fontSize: '3em' }}>Alysia</h2>
             <div className='alysia-bio'>
@@ -47,28 +47,35 @@ class OurStory extends React.Component {
               <p>However, this time she’s her own boss. Give her a spicy mezcal marg and ask her to get real.
               </p>
             </div>
-
           </div>
-
-
         </div>
 
         {/* Sarah's Section */}
         <div className="sarah">
-          <img src={Sarah} alt="sarah" style={{ borderRadius: '15%' }} />
 
-          <div className="sit-social-sarah">
-            <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-lg fa-fw'></i>
-            </a>
-            <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-lg fa-fw'></i>
-            </a>
-            <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-lg fa-fw'></i>
-            </a>
+          <div className="sarah-image-and-social">
+            <img src={Sarah} alt="sarah" style={{ borderRadius: '15%' }} />
+            <div className="sarah-social">
+              <ul className="social-links">
+                <li>
+                  <a href='httsections://www.instagram.com/hittingthebottle/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram fa-3x fa-fw'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.facebook.com/hittingthebottlepod/' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook fa-3x fa-fw'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.tiktok.com/@hittingthebottlepod' target='_blank' rel="noopener noreferrer"><i className='fab fa-tiktok fa-3x fa-fw'></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div className="sit-bio-sarah">
+          <div className="sarah-name-and-bio">
             <h2 className="sit-name" style={{ fontSize: '3em' }}>Sarah</h2>
-            <div className='sit-about-sarah'>
+            <div className='sarah-bio'>
               <p>
                 Is a self-proclaimed mom expert who truly has no idea what the f*ck she is doing. Fake it ‘til you make it, isn’t that what they say?  Coming from a diverse background including - but not limited to - corporate retail, design, and a quick-but-very-fun stint in bartending, motherhood was a far cry from her career path. Not one to back down, she accepted the role and is doing the best she can.
               </p>
@@ -82,7 +89,7 @@ class OurStory extends React.Component {
                 Time to slide down a bourbon on the rocks, sit crooked, and talk straight.
               </p>
             </div>
-          </div>
+          </div> 
         </div>
 
       </div>
