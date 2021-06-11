@@ -10,7 +10,7 @@ class Episodes extends React.Component {
           <iframe title='HTB podcast'
             style={{ width: '100%', height: '600px', borderRadius: '10px', marginBottom: '20px' }}
             scrolling="no"
-            frameborder="no"
+            frameBorder="no"
             seamless
             src="https://player.captivate.fm/show/00dd4d8f-76c7-4960-850b-2a73acfed083/">
           </iframe>
